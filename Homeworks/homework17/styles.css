@@ -1,0 +1,60 @@
+#clock {
+  height:120px;
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+body {
+  border: 8px solid black;
+  border-radius: 20px;
+  padding: 40px;
+  width: 60%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+label {
+	display:inline-block;
+}
+
+button {
+    transition-duration: 0.6s;
+    width: 200px;
+    border-radius: 12px;
+    padding: 32px 16px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  background-color: gray; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#alarm-container {
+  text-align:center;
+  font-family: Verdana;
+  font-size: 0.6em;
+  padding: 0.7em;
+  color: white;
+}
+
+#buttonHolder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  
