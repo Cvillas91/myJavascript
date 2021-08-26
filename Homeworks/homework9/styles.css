@@ -1,0 +1,109 @@
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 2.0rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+form {
+    text-align: center;
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 1rem;
+}
+
+.buttonDv0 {
+    background-color:whitesmoke;
+    border: 2px solid black;;
+    color: black;
+    padding: 40px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+  }
+
+button:hover {
+    background-color: gray; 
+    color: whitesmoke;
+}
+
+.divbuttons{
+    text-align: center;
+}
+
+.centerDiv{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.errorDiv{
+    font-family: 'Lucida Console', sans-serif;
+    color: red;
+}
+
+.goodRegisterDiv{
+    font-family: 'Lucida Console', sans-serif;
+    color: green;
+    text-align: center;
+}
+
+.LogOutButton {
+    text-align: right;
+}
+
+.all-tasks {
+    grid-area: lists;
+  }
+
+  .task-list {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    list-style: circle;
+    padding-left: 1.1em;
+  }
+
+  .container {
+      width: 60px;
+  }
+
+  #inputField{
+      width: 300px;
+      height: 46px;
+      border: 1px solid black;
+      outline: none;
+      font-size: 25px;
+      vertical-align: middle;
+  }
+
+  #addToDo {
+      height: 50px;
+      width: 50px;
+      border: 1px solid black;
+      vertical-align: middle;
+      font-size: 30px;
+  }
+
+  .to-dos{
+      margin-top: 25px;
+  }
+
+  .paragraph-styling {
+      margin:0;
+      cursor: pointer;
+      font-size: 20px;
+  }
