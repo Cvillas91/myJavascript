@@ -1,0 +1,43 @@
+body {
+    background-color: #dfdfdf;
+}
+
+.box {
+    display: block;
+    width: 700px;
+    height: 700px;
+    padding: 30px 50px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(102, 102, 102);
+}
+
+.center {
+    text-align: center;
+}
+
+.pagenumber {
+    text-align: right;
+    font-size: 15px;
+}
+
+.author {
+    text-align: right;
+    font-size: 25px;
+}
+
+.paragraph {
+    text-align: left;
+    font-size: 27px;
+}
+
+.exampletitles {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 30px;
+}
