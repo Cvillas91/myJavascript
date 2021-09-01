@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css"/>
+    <script defer src="script2.js"></script>
+</head>
+<body>
+    <div id = "div0">
+        <h1>Project #1: To do List</h1>
+        <h2>Application for creating and editing To do Lists</h2>
+        <div class = "divbuttons", id="divBut">
+            <button class = "buttonDv0", id = "SignUpButton">Sign Up</button>
+            <button class = "buttonDv0", id = "LogInButton">Log In</button>
+        </div>       
+    </div>
+
+    <div class = "LogOutButton", id = "divLogOutButton", style= "display: none">
+        <button id = "AccountSettings">Settings</button> 
+        <button id = "LogOut">Log Out</button>  
+    </div>
+
+    <div class = "centerDiv", id = "div1", style ='display:none'>
+        <table class = "centerTable">
+            <tr>
+                <td><label>First name:</label></td>
+                <td><input type="text" id="fname" autocomplete="off" ></td>
+            </tr>
+            <tr>
+                <td><label>Last name:</label></td>
+                <td><input type="text" id="lname" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td><label>EMail:</label></td>
+                <td><input type="text" id="email" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" id="password" ></td>
+            </tr>
+        </table>
+        <input type="checkbox" id="ckbox">
+        <label>I agree to the Terms and Conditions</label><br><br>
+        <button id = "RegisterButton">Register</button>
+        <button id = "ReturnButton1">Return</button><br><br>
+
+        <div class = "errorDiv", id = "divError", style='display:none'> 
+            <b>There is an error with your data please input correct values again!</b>
+        </div>
+
+    </div>
+    
+    <div class = "goodRegisterDiv", id = "divGood", style='display:none'> 
+        <b>User Registered!</b><br><br>
+        <button id = "LogInAgain">Log In</button>
+    </div>
+
+    <div class = "centerDiv", id ="div2", style ='display:none'>
+        <table class = "centerTable">
+            <tr>
+                <td><label>EMail:</label></td>
+                <td><input type="text" id="emailLogIn" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" id="passwordLogIn" ></td>
+            </tr>
+        </table>
+        <button id = "LogInTry">Log In</button>
+        <button id = "ReturnButton2">Return</button><br><br>
+    </div>
+    <div class = "errorDiv centerDiv", id = "divErrorLogIn", style='display:none'> 
+        <br><b>User or Password Incorrect! Try Again!</b>
+    </div>
+
+    <div class = "centerDiv", id = "divSettings", style ='display:none'>
+        <table class = "centerTable">
+            <tr>
+                <td><label>First name:</label></td>
+                <td><input type="text" id="fnameSettings" autocomplete="off" ></td>
+            </tr>
+            <tr>
+                <td><label>Last name:</label></td>
+                <td><input type="text" id="lnameSettings" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td><label>EMail:</label></td>
+                <td><input type="text" id="emailSettings" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" id="passwordSettings" ></td>
+            </tr>
+        </table>
+        <button id = "SaveSettingsButton">Save</button>
+        <button id = "ReturnButton3">Return</button><br><br>
+
+        <div class = "errorDiv", id = "divError2", style='display:none'> 
+            <b>There is an error with your data please input correct values again!</b><br>
+        </div>
+
+        <div class = "goodRegisterDiv", id = "divGood2", style='display:none'> 
+            <b>Information Saved!</b><br>
+        </div>
+
+    </div>
+
+    <div class = "containter centerDiv", id = "divList", style='display:none'>
+        <input id = "inputField", type="text"><button id = "addToDo">+</button>
+        <div class = "to-dos" id ="toDoContainer"></div>
+        <h5>Click on the + to add a new element, click on the element to cross it out, double click on the element to remove it</h5>
+    </div>
+
+</body>
+
+
+
+</html>
